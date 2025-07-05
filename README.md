@@ -21,6 +21,9 @@ Informative BMI classification chart included
 
 Responsive and clean design
 
+![WhatsApp Image 2025-07-05 at 17 45 23_4f0759df](https://github.com/user-attachments/assets/ce36723d-f389-4d46-a1d1-df0f0ea911fe)
+
+
 🧠 How It Works
 The user inputs their height (in meters) and weight (in kilograms).
 
