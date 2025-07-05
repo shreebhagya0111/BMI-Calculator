@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel=stylesheet href="style.css">
+</head>
+
+<body>
+    <h1>BMI calculator</h1>
+    <hr>
+    <p>As we know the body mass index plays an important role and is mainly used to check about your ideal weight
+        so here's a website to know your body mass index and to get to know more about your health
+    </p>
+    <div class="content"> <label class="text" for="Height">Enter the Height in Meters: </label><br>
+        <input  type="text" id="Height"><br><br>
+        <label class="text" for="Weight">Enter the Weight in kilograms: </label><br>
+        <input class="text" type="text" id="Weight"><br><br>
+        <button id="Submit">Submit</button>
+    </div>
+    <h3 id="BMI"></h3>
+    <h4 id="class"> </h4>
+    <h3 id="Submit">let's know about the main chart of the BMI:</h3>
+    <table id ="Submit">
+        <tr>
+            <th>CLASSIFICATION</th>
+            <th>BMI SCORE</th>
+        </tr>
+        <tr>
+            <td style = "color:grey">Underweight</td>
+            <td>
+                <18.5 </td>
+        </tr>
+        <tr>
+            <td style = "color:green">Normal</td>
+            <td>18.5-24.9</td>
+        </tr>
+        <tr>
+            <td style = "color:orange">Overweight</td>
+            <td>25.0-29.0</td>
+        </tr>
+        <tr>
+            <td style = "color:red">Obese</td>
+            <td>30.0-40.0</td>
+        </tr>
+        <tr>
+            <td style = "color:red">Extreme Obese</td>
+            <td> >40.0</td>
+        </tr>
+    </table>
+    <p> by looking at the above chart we can easily get to know what classification we come under</p>
+    <script src="script.js"></script>
+</body>
+
+</html>

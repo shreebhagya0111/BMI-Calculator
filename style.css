@@ -1,0 +1,29 @@
+h1{
+    color:brown;
+    text-align:center;
+    font-family:cursive;
+}
+.content{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius:18px;
+    text-align:center;
+    font-family:cursive;
+}
+.text{
+    padding-bottom:4px;
+}
+body{
+    background-color:beige;
+}
+table,td,tr,th{
+    border:2px solid black;
+    padding:4px;
+
+}
+p{
+    font-family:cursive;
+}
+#Submit,#class,#BMI{
+    font-family:cursive;
+}
